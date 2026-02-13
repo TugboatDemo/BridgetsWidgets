@@ -1,13 +1,15 @@
 <?php
+
 $databases['default']['default'] = array (
   'database' => 'tugboat',
   'username' => 'tugboat',
   'password' => 'tugboat',
   'prefix' => '',
-  'host' => 'database',
+  'host' => 'mysql',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
+  'collation' => 'utf8mb4_general_ci',
 );
 
 // Use the TUGBOAT_REPO_ID to generate a hash salt for Tugboat sites.
