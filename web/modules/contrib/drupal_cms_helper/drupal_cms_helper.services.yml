@@ -1,0 +1,16 @@
+services:
+  _defaults:
+    autoconfigure: true
+    autowire: true
+  Drupal\drupal_cms_helper\SiteExporter:
+    arguments:
+      $storage: '@config.storage'
+  Drupal\drupal_cms_helper\FilteringMessenger:
+    decorates: messenger
+    arguments:
+      - '@.inner'
+  # These event subscribers are internal and may be changed, or removed,
+  # at any time without warning. External code should not touch them.
+  Drupal\drupal_cms_helper\EventSubscriber\DefaultContentSubscriber: ~
+  Drupal\drupal_cms_helper\EventSubscriber\RecipeSubscriber: ~
+  Drupal\drupal_cms_helper\EventSubscriber\RouteSubscriber: ~

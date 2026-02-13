@@ -1,20 +1,4 @@
-# Dependencies managed by Composer.
-/recipes
-/vendor
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Spotlight-V100
-.Trashes
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# Local development
+vendor
+.idea
 .ddev
+.DS_Store
