@@ -1,0 +1,10 @@
+uuid: 93b23646-3ab2-4cb7-bb0b-587eb3cd9606
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fmIZX47PjCIVObQh6Ao8FQfKjkWy-FzUE-OvsbDmMjQ
+id: native
+label: 'PHP native sendmail'
+plugin: native
+configuration: {  }

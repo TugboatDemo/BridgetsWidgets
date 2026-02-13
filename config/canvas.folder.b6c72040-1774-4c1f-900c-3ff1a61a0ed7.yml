@@ -1,0 +1,12 @@
+uuid: b6c72040-1774-4c1f-900c-3ff1a61a0ed7
+langcode: en
+status: true
+dependencies: {  }
+name: Card
+configEntityTypeId: component
+weight: 0
+items:
+  - sdc.mercury.card-icon
+  - sdc.mercury.card-logo
+  - sdc.mercury.card-pricing
+  - sdc.mercury.card-testimonial

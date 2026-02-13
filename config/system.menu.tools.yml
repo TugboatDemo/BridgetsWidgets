@@ -1,0 +1,10 @@
+uuid: b4c39e6d-b528-47c5-a7cb-e2dfc05d2c47
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Tools
+description: 'User tool links, often added by modules'
+locked: true
