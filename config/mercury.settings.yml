@@ -8,4 +8,4 @@ features:
 logo:
   path: sites/default/files/assets/bridgets-widgets-logo.png
   use_default: false
-scheme: light
+scheme: dark
